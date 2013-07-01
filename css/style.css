@@ -2,3 +2,37 @@
 html, body {
     margin: 20px;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.notelist {
+    padding: 10px;
+    width: 20%;
+    float: left;
+}
+
+.notelist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: solid 1px #ccc;
+    border-bottom: none;
+}
+
+.notelist li {
+    border-bottom: solid 1px #ccc;
+    padding: 5px;
+}
+
+.note {
+    padding: 10px;
+    width: 80%;
+    float: left;
+}
+
+.excerpt {
+    font-size: 0.8em;
+    color: #888;
+}
