@@ -1,5 +1,9 @@
 App = Ember.Application.create();
 
+App.store = DS.Store.create({
+    adapter: DS.LSAdapter.create()
+});
+
 App.Router.map(function () {
     this.resource('notes', function () {
         this.route('view', {path: '/:note_id'});
