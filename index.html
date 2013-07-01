@@ -43,6 +43,7 @@
       <p>{{body}}</p>
 
         {{#linkTo notes.edit this}}Edit{{/linkTo}}
+        <a {{action remove}}>Remove</a>
   </script>
 
   <script type="text/x-handlebars" data-template-name="notes/edit">
@@ -77,6 +78,7 @@
   <script src="js/model/note.js"></script>
   <script src="js/controller/notes_edit_controller.js"></script>
   <script src="js/controller/notes_add_controller.js"></script>
+  <script src="js/controller/notes_view_controller.js"></script>
 
 </body>
 </html>

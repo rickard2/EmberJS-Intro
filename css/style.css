@@ -3,6 +3,12 @@ html, body {
     margin: 20px;
 }
 
+a[data-ember-action] {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 * {
     box-sizing: border-box;
 }
